@@ -1,4 +1,4 @@
-package io.olibra.bondcommons.extensions
+package br.brilhante.gustavo.listbackdrop.extensions
 
 import android.animation.ObjectAnimator
 import android.view.View

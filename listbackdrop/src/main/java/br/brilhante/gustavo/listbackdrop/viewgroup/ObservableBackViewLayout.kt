@@ -1,4 +1,4 @@
-package io.olibra.bonduicomponents.ui.viewgroup
+package br.brilhante.gustavo.listbackdrop.viewgroup
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import br.brilhante.gustavo.listbackdrop.actionbar.ListActionBar
 
 /**
  * TODO: document your custom view class.

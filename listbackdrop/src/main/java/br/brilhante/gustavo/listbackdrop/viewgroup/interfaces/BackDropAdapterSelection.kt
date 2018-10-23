@@ -1,6 +1,7 @@
 package br.brilhante.gustavo.listbackdrop.viewgroup.interfaces
 
 import android.view.View
+import br.brilhante.gustavo.listbackdrop.extensions.animateAlpha
 
 interface BackDropAdapterSelection {
     var viewList: List<View>

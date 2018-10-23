@@ -1,4 +1,4 @@
-package io.olibra.bonduicomponents.ui.viewgroup
+package br.brilhante.gustavo.listbackdrop.viewgroup
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -12,8 +12,13 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.core.view.GestureDetectorCompat
 import androidx.recyclerview.widget.RecyclerView
+import br.brilhante.gustavo.listbackdrop.actionbar.ActionButtonClickListener
+import br.brilhante.gustavo.listbackdrop.actionbar.ActionButtonState
+import br.brilhante.gustavo.listbackdrop.extensions.animateAlpha
+import br.brilhante.gustavo.listbackdrop.extensions.animateY
 import br.brilhante.gustavo.listbackdrop.viewgroup.enums.BackDropScroll
 import br.brilhante.gustavo.listbackdrop.viewgroup.gesture.BackDropGestureRecognizer
+import br.brilhante.gustavo.listbackdrop.viewgroup.interfaces.BackDropAdapterSelection
 
 class BackDrop(context: Context, attributeSet: AttributeSet) : FrameLayout(context, attributeSet),
     onBackViewInterceptTouchListener, GestureDetector.OnGestureListener {

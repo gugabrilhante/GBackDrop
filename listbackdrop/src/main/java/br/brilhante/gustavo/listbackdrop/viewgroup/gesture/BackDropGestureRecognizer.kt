@@ -2,8 +2,8 @@ package br.brilhante.gustavo.listbackdrop.viewgroup.gesture
 
 import android.view.MotionEvent
 import android.view.View
+import br.brilhante.gustavo.listbackdrop.viewgroup.ObservableDragLayout
 import br.brilhante.gustavo.listbackdrop.viewgroup.enums.BackDropScroll
-import io.olibra.bonduicomponents.ui.viewgroup.ObservableDragLayout
 import kotlin.math.absoluteValue
 
 class BackDropGestureRecognizer(val backView: ObservableDragLayout, val sheet: View) {

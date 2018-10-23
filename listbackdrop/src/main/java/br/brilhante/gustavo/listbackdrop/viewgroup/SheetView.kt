@@ -1,11 +1,11 @@
-package io.olibra.bonduicomponents.ui.viewgroup
+package br.brilhante.gustavo.listbackdrop.viewgroup
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import io.olibra.bondcommons.extensions.animateAlpha
+import br.brilhante.gustavo.listbackdrop.extensions.animateAlpha
 
 class SheetView(context: Context, attributeSet: AttributeSet) : FrameLayout(context, attributeSet) {
 
