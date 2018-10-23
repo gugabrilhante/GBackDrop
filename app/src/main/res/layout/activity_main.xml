@@ -5,19 +5,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         tools:context=".MainActivity">
 
-    <io.olibra.bonduicomponents.ui.viewgroup.BackDrop
-            android:id="@+id/backdropView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        <!--your back view-->
-        <include layout="@layout/layout_backview"/>
-
-        <!--your foldable view (front view)-->
-        <include layout="@layout/layout_sheet"/>
-
-    </io.olibra.bonduicomponents.ui.viewgroup.BackDrop>
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="backdrop"/>
 
 </LinearLayout>
