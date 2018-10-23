@@ -7,9 +7,17 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"/>
+    <io.olibra.bonduicomponents.ui.viewgroup.BackDrop
+            android:id="@+id/backdropView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!--your back view-->
+        <include layout="@layout/layout_backview"/>
+
+        <!--your foldable view (front view)-->
+        <include layout="@layout/layout_sheet"/>
+
+    </io.olibra.bonduicomponents.ui.viewgroup.BackDrop>
 
 </LinearLayout>

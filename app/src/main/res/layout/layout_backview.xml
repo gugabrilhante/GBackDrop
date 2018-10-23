@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.olibra.bonduicomponents.ui.viewgroup.ObservableDragLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+    <io.olibra.bonduicomponents.ui.actionbar.ListActionBar
+            android:id="@+id/listActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_remote_horizontal"
+            android:clickable="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/verticalRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_remote_horizontal"
+            android:clickable="true"/>
+
+</io.olibra.bonduicomponents.ui.viewgroup.ObservableDragLayout>

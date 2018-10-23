@@ -3,7 +3,6 @@ package br.brilhante.gustavo.listbackdrop.viewgroup
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
-import android.view.ViewGroup
 import android.widget.FrameLayout
 import br.brilhante.gustavo.listbackdrop.extensions.animateAlpha
 
@@ -42,9 +41,6 @@ class SheetView(context: Context, attributeSet: AttributeSet) : FrameLayout(cont
     private fun getInsideView(): View {
         // TODO need to replace this logic later
         var childView = getChildAt(0)
-        (childView as? ViewGroup)?.let {
-            return it.getChildAt(0)
-        }
         return childView
     }
 }
